@@ -1,0 +1,66 @@
+*{ margin:0px; padding:0px; box-sizing: border-box; }
+
+body{
+    font: 1em "Helvetica", sans-serif;
+    background-color: #8ba8af;
+	display: relative;
+}
+
+.wrapper{
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #fff;
+	overflow:hidden;
+	text-align:center;
+}
+
+h1, h2, h3, h4, h5{
+    font-weight: 200;
+}
+
+input, textarea{
+    font-size: inherit;
+}
+
+input [type="text"],textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
+input[type="submit"]{padding:5px 10px 5px 10px; cursor: pointer;}
+
+label{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom: 20px;
+}
+
+table th{
+    text-align: left;
+}
+
+li {list-style:none;}
+
+.faded{
+    color: #bbb;
+}
+.clearfix{clear:both;}
+.twothirds{display: inline-block; padding:20px; float:left; width:66%;}
+.onethird{display: inline-block; padding:20px; float:left; width:33%;}
+------------------------------------------------------
+/*add-species*/
+#middle{float:left; width:100%;   }
+.add-species-left{display: inline-block; padding:20px; float:left; width:50%; text-align:center;}
+.add-species-right {display: inline-block; padding:20px;  float:left;  width:50%; text-align:center;}
+
+
+

@@ -1,0 +1,23 @@
+
+.login a:link, .login a:visited{
+	color:rgb(255, 0, 0);
+	text-decoration: none;
+}
+
+.login a:hover
+{
+	color:rgb(238, 238, 238);
+	text-decoration: none;
+	size: 150%;
+}
+
+a:link, a:visited{
+	color:rgb(72, 255, 0);
+	text-decoration: none;
+}
+
+a:hover
+{
+	color:white;
+	text-decoration: none;
+}

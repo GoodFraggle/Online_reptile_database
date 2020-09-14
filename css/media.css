@@ -1,0 +1,115 @@
+/*desktops - higher resolution*/
+@media (min-width: 1281px){
+	.aside-1, .top-side-1, .bottom-side-1 { 
+		order: 1;   flex: 2;
+	} 
+	.header, .main, .footer {
+		order: 2; flex: 4; 
+	}
+	.aside-2, .top-side-2, .bottom-side-2 { 
+		order: 3;  flex: 2;
+	}	
+
+	
+
+}
+
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px){
+	.aside-1, .top-side-1, .bottom-side-1 { 
+		order: 1;   flex: 1;
+	} 
+	.header, .main, .footer {
+		order: 2; flex: 10; 
+	}
+	.aside-2, .top-side-2, .bottom-side-2 { 
+		order: 3;  flex: 1;
+	}	
+
+	.header{
+		flex:2;
+	
+	}
+
+	.top-side-1{
+		flex:2;
+	
+	}
+
+	.top-side-2{
+		flex:2;
+	
+	}
+	.login{
+	font-size:0.5em;
+}
+}
+
+@media(max-width: 1024px){
+
+	.aside-1, .top-side-1, .bottom-side-1 { 
+		order: 1;   flex: 0;
+	} 
+	.header, .main, .footer {
+		order: 2; flex: 1; 
+	}
+	.aside-2, .top-side-2, .bottom-side-2 { 
+		order: 3;  flex: 0;
+	}	
+	.top-side{
+
+		max-height: 74px;
+	}
+	
+	.top-side-1	{
+		background-image: url("../images/small-snakehead.png");
+		justify-content: left;
+		background-repeat: no-repeat;
+		min-width:194px;
+
+	}
+	h1{
+		font-size: 16px;
+	}
+	.box-1{
+		min-height:74px;
+
+	}
+	.header{
+		flex:2;
+	
+	}
+
+	.top-side-1{
+		flex:2;
+	
+	}
+
+	.top-side-2{
+		flex:2;
+	
+	}
+	.login{
+	font-size:0.4em;
+}
+}
+/*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px){
+
+}
+
+/*tablets, ipads (landscape)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+
+}
+
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px){
+
+
+}
+
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px){
+
+}

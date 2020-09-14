@@ -1,0 +1,148 @@
+
+.user-menu{
+	flex:2;
+}
+
+.admin-menu{
+
+	flex:3;
+}
+
+.user-main{
+
+}
+
+.main-segment{
+
+}
+
+
+  
+  .main{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    
+  }
+    
+  input[type=text], select, textarea{
+    background:black;
+  }
+    
+    input[type=submit] {
+    background-color: black;
+  }
+    .main-page{
+      /*border:1px solid #850001;*/
+    }
+    
+    .main-page-1{
+      display: flex;
+      background: rgb(0,0,0);
+      background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(133,0,1,1) 70%);
+      flex-direction: column;
+      border-bottom:0;
+    }
+    
+    .main-page-2 {
+      padding
+      flex: 4;
+  
+    }
+
+    .page-content{
+      padding:20px;
+    }
+  
+    .page h2 {
+      margin:0;
+      padding:5px;
+    }
+    
+    .page h2{
+      text-align: center;
+  
+    }
+  
+    .page-2{
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .details{
+      display: flex;
+      flex-direction: row;
+      width:100%;
+    }
+    
+    .details-2{
+      flex-direction: column;
+      padding:5px;
+    }
+    
+    .cat{
+      display: flex;
+      margin:5px;
+      border-bottom:1px solid #850001;
+    }
+    
+    .cat:last-child {
+      border-bottom:0;
+    }
+    
+    .photo {
+      padding:5px;
+    }
+    
+    .photo-1{
+      flex:2;
+    }
+    
+    .photo-2{
+      flex:3;	
+    }
+    
+    .photo-2 .info {
+      border-bottom:1px solid #850001;
+    }
+    .photo img {
+      width:100%;
+    }
+    
+    .info{
+      display: flex;
+      flex-direction: row;
+      font-size:0.7em;
+      flex-grow: 2;
+    }
+    
+    .info-title{
+      flex:1;
+      padding:5px;
+      font-weight: 900;
+    }
+    
+    .info-content{
+      flex:3;
+      padding:5px;
+    }
+    
+    .tabs{
+      border:1px solid #850001;
+      border-bottom:0;
+      border-top-right-radius: 8px;
+      padding:2px 5px;
+      border-right:0;
+    }
+    
+    .tabs:last-child{
+      border-right:1px solid #850001;
+    }
+    
+    .tabs:first-child{
+      border-left:0;
+    }
+    
+    .tab-1{
+      background: #850001;
+    }

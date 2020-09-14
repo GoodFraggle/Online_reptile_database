@@ -1,0 +1,122 @@
+.main-page-2 form .formdiv {
+	 display: grid;
+  grid-template-columns: repeat(2, 0.5fr) 1fr 1.1fr;
+  grid-template-rows: 1fr;
+  gap: 10px 10px;
+  grid-template-areas: ". . . .";
+}
+
+.main-page-2 form .formdiv span {
+
+	color:red;
+}
+
+	.main-page-2 form .form-2-collums{
+		border:1px solid red;
+		border-radius: 4px;
+		margin-bottom: 20px;
+		display: flex;
+		flex-direction: column;
+		flex-flow: row wrap;
+		flex-grow: 1;
+		justify-content:space-around;
+	}
+
+	.main-page-2 .form-2-1{
+		flex-flow: row wrap;
+		flex-grow: 1;
+	}
+
+	.main-page-2 input[type="checkbox"]  {
+		height: 15px;
+		width: 15px;
+		margin-right: 10px;
+		background: #0F0101;
+		color: #7a7977;
+	}
+
+	.main-page-2 select {
+		  background-color:#0F0101;
+		  color: #7a7977;
+ 		padding: 4px;
+ 		margin-left: 10px;
+		}
+
+	.main-page-2 .form-2-2{
+		flex-flow: row wrap;
+		flex-grow: 1;
+	}
+
+	.main-page-2 form{
+		color: #7a7977;
+		padding:20px;
+		background-color:#0F0101 ;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.main-page-2 form input[type=text], input[type="password"] {
+		padding:2px 5px;
+		border:1px solid #850001;
+		border-radius: 5px;
+		background-color:#0F0101;
+	}
+
+	.main-page-2 form input textarea{
+		border:1px solid #850001;
+		border-radius: 5px;
+		width:100%;
+
+	}
+
+	.main-page-2 form textarea{
+		border:1px solid #850001;
+		border-radius: 5px;
+		padding:10px;
+		background-color:#0F0101 ;
+		width: 900px;
+  		height: 150px;
+	}
+
+	.main-page-2 form input[type=submit],  select
+	{
+		border:1px solid #850001;
+		border-radius: 5px;
+		padding:2px 5px;
+
+	}
+	.main-page-2 form fieldset label{
+		padding:10px;
+		display:flex;
+		
+	}
+
+	.main-page-2 form fieldset label .title{
+		order: 1;   flex: 1;
+		padding:10px;
+		text-align: right;
+	}
+
+	.main-page-2 form fieldset label .content{
+		order: 2;   flex: 2;
+		padding:10px;
+	}
+	.main-page-2 form fieldset label:first-child{
+		padding-right:20px;
+	}
+
+	.main-page-2 form fieldset{
+		border:1px solid #850001;
+		border-radius: 5px;
+		padding:20px;
+		margin-top:20px;
+	}
+
+
+	.main-page-2 form legend{
+		margin:0px auto;
+
+	}
+
+	.img {
+	}

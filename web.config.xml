@@ -1,0 +1,8 @@
+<system.webServer>
+    <httpProtocol>
+      <customHeaders>
+        <clear />
+        <add name="X-UA-Compatible" value="IE=edge" />
+      </customHeaders>
+    </httpProtocol>
+</system.webServer>
